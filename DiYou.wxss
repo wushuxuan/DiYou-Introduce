@@ -1,0 +1,131 @@
+/* company/pages/DiYou/DiYou.wxss */
+.guanggao{
+  text-align: center;
+  font-size:16px;
+  padding:10px 0px 0px;
+  background:#0fb5b3;
+  color:#fff;
+}
+.guanggao text{
+  display: block;
+  width:100%;
+  text-align: center;
+}
+.guanggao text:nth-child(1){
+  font-weight: bold;
+  margin:20px auto;
+}
+.guanggao text:nth-child(2){
+  font-size:11px;
+}
+.guanggao button{
+  width:25%;
+  background:#fff;
+  color:#0fb5b3;
+  font-size:11px;
+  margin-top:20px;
+}
+
+
+
+/*top images*/
+.images{
+  width:80%;
+  height:180px;
+  margin:30px auto;
+  position: relative;
+  overflow: hidden
+}
+.images .flex-wrap{
+  width:60%;
+  height:250px;
+}
+.images .flex-wrap:nth-child(1){
+  position: absolute;
+  left:0px;
+  top:20px;
+  z-index: 10;
+}
+.images .flex-wrap:nth-child(2){
+  position: absolute;
+  left:20%;
+  z-index: 50;
+}
+.images .flex-wrap:nth-child(3){
+  position: absolute;
+  right:0px;
+  top:20px;
+  z-index: 10;
+}
+.images .flex-wrap image{
+  width:100%;
+  height:100%;
+}
+
+/*内容*/
+.diyoucontent{
+  text-align: center;
+  color:#d2d3d8;
+}
+.diyoucontent .h1{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top:60px;
+  color:#000;
+}
+.diyoucontent .h2{
+  font-size: 12px;
+  margin:15px auto;
+}
+.views{
+  width:50%;
+  margin:50px auto;
+} 
+.views .flex-wrap{
+  width:100%;
+  margin:60px auto;
+}
+.views .flex-wrap image{
+  width:50px;
+  height:50px;
+}
+.views .flex-wrap .text{
+  color:#707070;
+  font-size:15px;
+  margin:10px;
+}
+.views .flex-wrap .text2{
+  color:#707070;
+  margin:10px;
+  font-size:10px;
+}
+
+
+/*底部*/
+
+.bottom{
+  width:100%;
+  height:80px;
+color:#777;
+padding:5px 30px;
+font-size:10px;
+text-align:left;
+border-top:1px solid #eee;
+}
+.bottom .left{
+  width:60%;
+  float: left;
+}
+.bottom .left view{
+  margin:10px auto;
+}
+.bottom .right{
+  width:40%;
+  float: right;
+}
+.bottom .right image{
+  width:60px;
+  height:60px;
+  display: inline-block;
+  margin:10px 30px;
+}

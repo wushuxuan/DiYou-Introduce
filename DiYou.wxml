@@ -1,0 +1,63 @@
+<!--company/pages/DiYou/DiYou.wxml-->
+<view class="index">
+  <view class="guanggao">
+    <view class="text">
+      <text>让司机放心租车,让租赁公司开心管车</text>
+      <text>帮助租赁公司提前布局微信新生态，抢占第一波红利</text>
+    </view>
+    <button>电话咨询 </button>
+
+    <view class="images">
+      <view class="flex-wrap">
+        <image src="../../images/06.png"></image>
+      </view>
+      <view class="flex-wrap">
+        <image src="../../images/01.jpg"></image>
+      </view>
+      <view class="flex-wrap">
+        <image src="../../images/07.jpg"></image>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="diyoucontent">
+    <view class="h1">嘀友服务介绍</view>
+    <view class="h2">全面提升网上营销，网上获取订单的新能力</view>
+
+    <view class="views">
+      <view class="flex-wrap">
+        <image src="../../images/guan.png"></image>
+        <view class="text">嘀友管车</view>
+        <view class="text2">帮助租赁公司系统的管理公司，提升公司管理效率。</view>
+      </view>
+
+       <view class="flex-wrap">
+        <image src="../../images/rent.png"></image>
+        <view class="text">嘀友租车</view>
+        <view class="text2">面对广大司机在线预约车辆，安全有保障。</view>
+      </view>
+
+
+       <view class="flex-wrap">
+        <image src="../../images/xiao.png"></image>
+        <view class="text">嘀友小程序</view>
+        <view class="text2">帮助租赁公司系统的管理公司，提升公司管理效率。</view>
+      </view>
+
+    </view>
+
+
+
+    <view class="bottom">
+      <view class="left">
+        <view>公司：上海嘀友网络科技公司</view>
+        <view>电话：13641650994</view>
+        <view>地址：上海市浦东新区杨南路455号</view>
+      </view>
+      <view class="right">
+        <image src="../../images/diyou.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
